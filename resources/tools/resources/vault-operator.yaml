@@ -22,7 +22,7 @@ spec:
   source:
     path: charts/vault-operator
     repoURL: https://github.com/banzaicloud/bank-vaults.git
-    targetRevision: master
+    targetRevision: main
     helm:
       values: |
         etcd-operator:
