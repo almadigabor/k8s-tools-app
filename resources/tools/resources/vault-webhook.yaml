@@ -15,7 +15,7 @@ spec:
   source:
     path: charts/vault-secrets-webhook
     repoURL: https://github.com/banzaicloud/bank-vaults.git
-    targetRevision: master
+    targetRevision: main
   syncPolicy:
     automated:
       prune: true
